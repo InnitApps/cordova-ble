@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
-	id="com.evothings.ble"
+	id="com.innit.bluetoothle"
 	version="0.0.1">
 
 	<!-- This plugin requires Cordova version 3.1.0 or newer. -->
@@ -8,10 +8,10 @@
 		<engine name="cordova" version=">=3.1.0" />
 	</engines>
 
-	<name>Evothings BLE API</name>
+	<name>Innit BLE</name>
 
-	<js-module src="ble.js" name="BLE">
-		<clobbers target="evothings.ble" />
+	<js-module src="innit.ble.js" name="BLE">
+		<clobbers target="innit.ble" />
 	</js-module>
 
 	<platform name="android">

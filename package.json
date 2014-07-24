@@ -1,6 +1,6 @@
 {
     "version": "0.0.1",
-    "name": "com.evothings.ble",
+    "name": "com.innit.ble",
     "cordova_name": "Bluetooth Low Energy (BLE) API",
     "engines": [
         {
